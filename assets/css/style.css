@@ -1,0 +1,126 @@
+/* --------------------- */
+/* -------Generale--------- */
+/* --------------------- */
+
+body {
+  background-color: hsl(248, 55%, 54%);
+  font-family: "Kanit";
+}
+
+.container {
+  background-color: white;
+
+  /* border: 1px solid red; */
+}
+
+/* --------------------- */
+/* -------Header--------- */
+/* --------------------- */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+}
+
+.pictures {
+  /* border: 10px solid orange; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pictures img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.pictures h1 {
+  font-size: 20px;
+}
+.menu {
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.menu span {
+  font-size: 20px;
+  background-color: white;
+}
+
+.menu span:hover {
+  background-color: rgb(21, 21, 21);
+  color: white;
+  width: 160px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.menu button {
+  background-color: black;
+  color: white;
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.menu button:hover {
+  border: black 1px solid;
+  background-color: white;
+  color: black;
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* --------------------- */
+/* -------Main--------- */
+/* --------------------- */
+
+main {
+  background-color: white;
+  width: 1024px;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.mountain img {
+  width: 600px;
+  padding: 20px;
+}
+
+.description h2 {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 30px;
+}
+
+.description p {
+  font-size: 15px;
+  margin: auto;
+}
+
+footer {
+  width: 1024px;
+  /* border: orange 1px solid; */
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sign a {
+  text-decoration: none;
+  color: black;
+}
+
+.sign a:hover {
+  color: gray;
+}
